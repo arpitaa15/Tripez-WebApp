@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import "./navbar.css"
+import { Link } from "react-router-dom";
 
 import {MdTravelExplore} from 'react-icons/md'
 import {AiFillCloseCircle} from 'react-icons/ai'
@@ -33,7 +34,7 @@ export const Navbar = () => {
                 <ul className='navList flex'>
 
                     <li className='navItem'>
-                        <a href='#' className='navLink'>Home</a>
+                    <Link to="/" className='navLink'>Home</Link>
                     </li>
 
                     <li className='navItem'>
@@ -45,7 +46,7 @@ export const Navbar = () => {
                     </li>
 
                     <li className='navItem'>
-                        <a href='#' className='navLink'>About</a>
+                        <Link to="/about" className='navLink'>About</Link>
                     </li>
 
                     <li className='navItem'>
@@ -57,11 +58,11 @@ export const Navbar = () => {
                     </li>
 
                     <li className='navItem'>
-                        <a href='#' className='navLink'>Contact</a>
+                        <Link to="/contact" className='navLink'>Contact</Link>
                     </li>
 
                     <button className='btn'>
-                        <a href="#">BOOK NOW</a>
+                        <a href="#">Sign In</a>
                     </button>
 
                 </ul>
