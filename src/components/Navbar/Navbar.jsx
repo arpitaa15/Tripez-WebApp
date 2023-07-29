@@ -26,7 +26,7 @@ export const Navbar = () => {
         <header className='header flex'>
             <div className='logoDiv'>
                 <a href='#' className='logo flex'>
-                    <h1> <MdTravelExplore className='icon' /> TRIPEZ</h1>
+                    <h1> <MdTravelExplore className='icon' /> Tripez</h1>
                 </a>
             </div>
 
