@@ -1,0 +1,102 @@
+.app {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-color: #7188e0; */
+  background-image: url("C:\Tripez-WebApp\src\Assets\bg-img.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 10px;
+  font-weight: normal;
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bolder;
+  background: #4b1e5f;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  /* background-color: rgb(73, 227, 222); */
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(69,252,247,1) 100%);
+  padding: 2rem;
+  width: 40rem;
+  height: 25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight:500;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bolder;
+  color: #243278;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+label{
+  font-weight: bolder;
+  color: #243278;
+}
+
+.register{
+    width: 35rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.register :hover {
+  color: #0b1411;
+
+}
