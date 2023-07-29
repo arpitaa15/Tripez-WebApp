@@ -2,12 +2,11 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 
-function About() {
+function SignIn() {
   return (
     <section>
     <div>
         <Navbar></Navbar>
-        <div>About</div>
     </div>
     <div>
       <Footer></Footer>
@@ -18,4 +17,4 @@ function About() {
   )
 }
 
-export default About
+export default SignIn

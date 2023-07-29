@@ -8,8 +8,8 @@
   --whiteColorDeam: hsl(0, 0%, 93%);
   --greyText: rgb(190, 190, 190);
   --inputColor: rgb(239. 239, 239);
-  --bodyColor: rgb(240, 240, 246);
-  --cardBG: rgb(225, 225, 235);
+  --bodyColor: rgb(239, 239, 247);
+  --cardBG: rgb(236, 236, 244);
 }
 
 .home {

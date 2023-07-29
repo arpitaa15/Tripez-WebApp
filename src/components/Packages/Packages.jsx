@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 
-function About() {
+function Packages() {
   return (
     <section>
     <div>
@@ -18,4 +18,4 @@ function About() {
   )
 }
 
-export default About
+export default Packages
