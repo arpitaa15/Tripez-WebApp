@@ -27,9 +27,9 @@ export const Home = () => {
       <div className="homeContent container">
         <div className="textDiv">
 
-          <span data-aos="fade-up" className="smallText">
+          {/* <span data-aos="fade-up" className="smallText">
             Our Packages
-          </span>
+          </span> */}
 
           <h1 data-aos="fade-up" className="homeTitle">Search Your Holiday </h1>
 

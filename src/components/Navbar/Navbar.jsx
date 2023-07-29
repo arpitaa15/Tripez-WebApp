@@ -26,7 +26,7 @@ export const Navbar = () => {
         <header className='header flex'>
             <div className='logoDiv'>
                 <a href='#' className='logo flex'>
-                    <h1> <MdTravelExplore className='icon' /> Travel</h1>
+                    <h1> <MdTravelExplore className='icon' /> TRIPEZ</h1>
                 </a>
             </div>
 
@@ -38,31 +38,31 @@ export const Navbar = () => {
                     </li>
 
                     <li className='navItem'>
-                        <a href='#' className='navLink'>Packages</a>
+                    <Link to="/packages" className='navLink'>Packages</Link>
                     </li>
 
-                    <li className='navItem'>
+                    {/* <li className='navItem'>
                         <a href='#' className='navLink'>Shop</a>
-                    </li>
+                    </li> */}
 
                     <li className='navItem'>
                         <Link to="/about" className='navLink'>About</Link>
                     </li>
 
-                    <li className='navItem'>
+                    {/* <li className='navItem'>
                         <a href='#' className='navLink'>Pages</a>
                     </li>
 
                     <li className='navItem'>
                         <a href='#' className='navLink'>News</a>
-                    </li>
+                    </li> */}
 
                     <li className='navItem'>
                         <Link to="/contact" className='navLink'>Contact</Link>
                     </li>
 
                     <button className='btn'>
-                        <a href="#">Sign In</a>
+                    <Link to="/login" className='navLink'>SIGN IN</Link>
                     </button>
 
                 </ul>
