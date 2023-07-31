@@ -3,10 +3,6 @@
     margin-top: 150px;
     margin-bottom: 20px;
 }
-
-/* *, *:before, *:after {
-    box-sizing: inherit;
-  } */
   
   .column {
     float: left;
@@ -14,14 +10,6 @@
     margin-bottom: 16px;
     padding: 0 8px;
   }
-
-  h2{
-    text-align: center;
-  }
-
-  /* img{
-    width: 100%;
-  } */
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -45,9 +33,17 @@
     display: table;
   }
   
-  .title {
-    color: grey;
-    font-size: 30px;
+  .team{
+    color:gray;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .designation{
+    font-size: 25px;
+    font-weight: bolder;
+    color: gray;
+
   }
 
   
