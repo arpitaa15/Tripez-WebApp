@@ -1,17 +1,16 @@
 import React from "react";
-import './contact.css';
 import Navbar from './components/Navbar/Navbar';
-import Contacts from "./components/Contacts/Contact";
 import Footer from './components/Footer/Footer';
+import Packages from './components/Packages/Packages';
 
-const Contact = () => {
+const Package = () => {
   return (
    <>
       <Navbar />
-      <Contacts />
+      <Packages />
       <Footer />
    </>  
   );
 }
 
-export default Contact;
+export default Package;

@@ -1,0 +1,28 @@
+/* .hello {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  } */
+.hi{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        /* background-color: #7188e0; */
+        background-image: url("C:\Tripez-WebApp\src\Assets\cloud.jpg");
+        position: fixed;
+        min-width: 100%;
+        min-height: 60%;
+        font-size: 60px;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-shadow: 3px 4px #0c0101;
+        position: relative;
+      }
+

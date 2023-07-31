@@ -1,5 +1,3 @@
-import Navbar from '../Navbar/Navbar'
-import Footer from '../Footer/Footer'
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./signin.css";
@@ -82,9 +80,6 @@ function SignIn() {
 
   return (
     <section>
-      <div>
-        <Navbar></Navbar>
-      </div>
     <div className="app">
       <div className="login-form">
         <div className="title">Sign In</div>

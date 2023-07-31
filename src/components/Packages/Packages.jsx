@@ -1,19 +1,13 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import Footer from '../Footer/Footer'
+
+
 
 function Packages() {
   return (
-    <section>
     <div>
-        <Navbar></Navbar>
-        <div>About</div>
+      hiii
     </div>
-    <div>
-      <Footer></Footer>
-    </div>
-    </section>
-
+    
 
   )
 }

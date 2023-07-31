@@ -1,0 +1,45 @@
+.main{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.content h1{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(60, 97, 152);
+    text-shadow: 3px 4px #6fbada;
+}
+
+.content p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(44, 119, 119);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-button {
+    border: none;
+    padding: 8px;
+    color: white;
+    background-color: #6395cf;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+  }
