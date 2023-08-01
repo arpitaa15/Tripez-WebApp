@@ -37,7 +37,7 @@
   top: 0;
   bottom: 0;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .home .homeContent {
   width: 100%;

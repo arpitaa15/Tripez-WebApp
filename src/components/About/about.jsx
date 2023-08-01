@@ -1,21 +1,15 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import Footer from '../Footer/Footer'
+import "./about.css"
 
 function About() {
   return (
     <section>
-    <div>
-        <Navbar></Navbar>
-        <div>About</div>
-    </div>
-    <div>
-      <Footer></Footer>
-    </div>
+      <div className='hi'>
+        <h1>Welcome to Tripez</h1>
+      </div>
     </section>
 
-
-  )
+    );
 }
 
 export default About

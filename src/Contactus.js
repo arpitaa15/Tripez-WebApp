@@ -1,17 +1,16 @@
 import React from "react";
-import './signin.css';
 import Navbar from './components/Navbar/Navbar';
-import SignIn from './components/SignIn/signin';
+import Contact from "./components/Contact/Contact";
 import Footer from './components/Footer/Footer';
 
-const SignIn = () => {
+const Contactus = () => {
   return (
    <>
       <Navbar />
-      <SignIn />
+      <Contact />
       <Footer />
    </>  
   );
 }
 
-export default SignIn;
+export default Contactus;

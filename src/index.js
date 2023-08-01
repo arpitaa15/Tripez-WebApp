@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import About from './components/About/about';
-import Contacts from './components/Contacts/Contact';
-import SignIn from './components/SignIn/signin';
-import Packages from './components/Packages/Packages';
+import Login from './Login';
+import Contactus from './Contactus';
+import Aboutus from './Aboutus';
+import Package from './Package';
+
+
 
 
 import{
@@ -20,19 +22,19 @@ const router = createBrowserRouter([
   },
   {
     path: "about",
-    element: <About />,
+    element: <Aboutus />,
   },
   {
     path: "contact",
-    element: <Contacts />,
+    element: <Contactus />,
   },
   {
     path: "login",
-    element: <SignIn />,
+    element: <Login />,
   },
   {
     path: "packages",
-    element: <Packages />,
+    element: <Package />,
   },
 ]);
 
