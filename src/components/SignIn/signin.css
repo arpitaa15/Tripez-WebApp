@@ -49,11 +49,14 @@ input[type="submit"]:hover {
 .login-form {
   background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(69,252,247,1) 100%);
+  /* background: rgba(76, 92, 175, 0.3); */
   padding: 2rem;
   width: 40rem;
   height: 25rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
+  opacity: 0.9;
+  
 }
 
 .list-container {

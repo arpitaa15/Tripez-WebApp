@@ -1,13 +1,13 @@
 import React, {useEffect} from 'react'
 import "./main.css"
 import {HiOutlineLocationMarker, HiOutlineClipboardCheck} from 'react-icons/hi'
-import img from '../../Assets/img (1).jpg'
-import img2 from '../../Assets/img (2).jpg'
+import img from '../../Assets/img (13).jpg'
+import img2 from '../../Assets/img(10).jpg'
 import img3 from '../../Assets/img (3).jpg'
 import img4 from '../../Assets/img (4).jpg'
-import img5 from '../../Assets/img (5).jpg'
+import img5 from '../../Assets/img (12).png.webp'
 import img6 from '../../Assets/img (6).jpg'
-import img7 from '../../Assets/img (7).jpg'
+import img7 from '../../Assets/img (11).jpg.webp'
 import img8 from '../../Assets/img (8).jpg'
 import img9 from '../../Assets/img (9).jpg'
 
@@ -18,20 +18,20 @@ const Data = [
   {
     id: 1,
     imgSrc: img,
-    destTitle: 'Bora Bora',
-    location: 'New Zealand',
+    destTitle: 'Leh',
+    location: 'India',
     grade: 'CULTURAL RELAX',
-    fees: '₹52,500',
-    description: 'The epitome of Romance, Bora Bora is one of the best traveldestinationin the World. This place is known for its Luxuriousstays and adventrous activities. '
+    fees: '₹30,000',
+    description: 'Located in the Ladakh region of Jammu and Kashmir, Leh is known for its stunning scenic locales, Buddhist temples and pristine environment. Due to the strong influence of Tibetan Buddhism, Leh is also known as Little Tibet or the Land of Lamas.'
   },
   {
     id: 2,
     imgSrc: img2,
-    destTitle: 'Machu Picchu',
-    location: 'Peru',
+    destTitle: 'Hornstrandir Nature Reserve',
+    location: 'IceLand',
     grade: 'CULTURAL RELAX',
     fees: '₹46,700',
-    description: "Huayna Picchu is a mountain in Peru,rising over Machu Pucchu, the so-called Lost city of Incas. This place is popular among tourists as the sunrise from the Sun Gate is simply spectacular. "
+    description: "Hornstrandir Nature Reserve is one of the best places to visit in Iceland. With open areas of lush forests and grasslands, it is home to the rare and elusive species of the Arctic Fox and is perfect for camping. "
   },
   {
     id: 3,
@@ -54,11 +54,11 @@ const Data = [
   {
     id: 5,
     imgSrc: img5,
-    destTitle: 'Guanajuato',
-    location: 'Mexico',
+    destTitle: 'Santorini',
+    location: 'Greece',
     grade: 'CULTURAL RELAX',
     fees: '₹80,000',
-    description: 'A city in central Mexico. Guanajuato is known for its history of silver mining and colonial architecture. The house in the city are very attractively painted with the most bright color available. Always Welcome. '
+    description: 'Santorini is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. They overlook the sea, small islands to the west and beaches made up of black, red and white lava pebbles.'
   },
   {
     id: 6,
@@ -72,11 +72,11 @@ const Data = [
   {
     id: 7,
     imgSrc: img7,
-    destTitle: 'Angkor Wat',
-    location: 'Cambodia',
+    destTitle: 'Plitvice National Park',
+    location: 'Central Croatia',
     grade: 'CULTURAL RELAX',
     fees: '₹56,000',
-    description: 'Angkot wat represent the entire range of khmer art from the 9th to the 15th century. This temple is considered the heart and soul of Cambodia. This place is known for its luxurious stays and adventurous activities. '
+    description: 'Plitvice Lakes is a real jewel in Croatia. The area of Plitvice Lakes National Park covers about sixteen interconnected large lakes, divided into two parts - Gornja jezera (Upper lakes) and Donja Jezera (Lower Lakes), many caves and hundreds of waterfalls.'
   },
   {
     id: 8,
@@ -90,7 +90,7 @@ const Data = [
   {
     id: 9,
     imgSrc: img9,
-    destTitle: 'Bali Island',
+    destTitle: 'Bali',
     location: 'Indonesia',
     grade: 'CULTURAL RELAX',
     fees: '₹54,889',
