@@ -38,24 +38,12 @@ export const Navbar = () => {
                     </li>
 
                     <li className='navItem'>
-                    <Link to="/packages" className='navLink'>Packages</Link>
-                    </li>
-
-                    {/* <li className='navItem'>
-                        <a href='#' className='navLink'>Shop</a>
-                    </li> */}
-
-                    <li className='navItem'>
                         <Link to="/about" className='navLink'>About</Link>
                     </li>
 
-                    {/* <li className='navItem'>
-                        <a href='#' className='navLink'>Pages</a>
-                    </li>
-
                     <li className='navItem'>
-                        <a href='#' className='navLink'>News</a>
-                    </li> */}
+                    <Link to="/packages" className='navLink'>Packages</Link>
+                    </li>
 
                     <li className='navItem'>
                         <Link to="/contact" className='navLink'>Contact</Link>
